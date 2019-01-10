@@ -45,6 +45,6 @@ mongo --ssl --host YOUR_HOSTNAME_PREFIX.docdb.amazonaws.com:27017 \
 
 # Note
 
-DocumentDB does not appear to currently support public endpoints, so you must connect from an EC2 instance located in the same VPC.
+DocumentDB does not appear to currently support public endpoints (which is good), so you must connect from an EC2 instance located in the same VPC.
 
 
