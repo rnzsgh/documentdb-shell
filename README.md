@@ -23,7 +23,7 @@ Run the following command to install the shell:
 sudo yum -y install mongodb-org-shell
 ```
 
-# Pull the SSL certificate
+# Pull the certificate
 
 For SSL access, download the AWS CA bundle by running:
 
