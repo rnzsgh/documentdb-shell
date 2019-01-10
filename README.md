@@ -40,7 +40,6 @@ mongo --ssl --host YOUR_HOSTNAME_PREFIX.docdb.amazonaws.com:27017 \
   --sslCAFile rds-combined-ca-bundle.pem \
   --username MY_USERNAME \
   --password MY_PASSWORD
-
 ```
 
 # Note
