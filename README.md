@@ -36,7 +36,10 @@ curl -o rds-combined-ca-bundle.pem https://s3.amazonaws.com/rds-downloads/rds-co
 Go to the [Amazon DocumentDB (with MongoDB compatibility)](https://console.aws.amazon.com/docdb/home#clusters) section of the console, click on your cluster and get the connection information. Then, you will execute something similar to:
 
 ```
-mongo --ssl --host YOUR_HOSTNAME_PREFIX.docdb.amazonaws.com:27017 --sslCAFile rds-combined-ca-bundle.pem --username MY_USERNAME --password MY_PASSWORD 
+mongo --ssl --host YOUR_HOSTNAME_PREFIX.docdb.amazonaws.com:27017 \
+  --sslCAFile rds-combined-ca-bundle.pem \
+  --username MY_USERNAME \
+  --password MY_PASSWORD
 
 ```
 
