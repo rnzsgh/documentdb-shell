@@ -1,6 +1,6 @@
 # Amazon DocumentDB Shell
 
-The following are instructions to install the v3.6.9 mongo shell for use with [Amazon DocumentDB (with MongoDB compatibility)](https://aws.amazon.com/documentdb/) on Amazon Linux 2. For more detailed information, see the [official docs](https://docs.aws.amazon.com/documentdb/latest/developerguide/getting-started.connect.html).
+The following are instructions to install the v3.6 mongo shell for use with [Amazon DocumentDB (with MongoDB compatibility)](https://aws.amazon.com/documentdb/) on Amazon Linux 2. For more detailed information, see the [official docs](https://docs.aws.amazon.com/documentdb/latest/developerguide/getting-started.connect.html).
 
 # Configure yum
 
